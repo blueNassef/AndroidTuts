@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Android Tuts</string>
+    <string-array name="tuts">
+        <item>Introduction to the Android system</item>
+        <item>Setting up your system</item>
+        <item>Creating an Emulator VS. Genymotion</item>
+        <item>Hello World</item>
+        <item>The <b><i>EditText</i></b> View</item>
+        <item>Buttons and linear Layouts</item>
+        <item>Responding to Button Clicks</item>
+        <item>Debugging with DDMS and Logcat</item>
+        <item>Saving Files to internal storage</item>
+        <item>Reading Files from internal storage</item>
+        <item>String Resources and localization</item>
+        <item>Creating launcher icons</item>
+        <item>Running on your phone</item>
+        <item>Saving program data</item>
+        <item>Toasts</item>
+        <item>Adding new Activity</item>
+        <item>Displaying images</item>
+        <item>Getting touch coordinates</item>
+        <item>Alert Dialogs</item>
+        <item>The <b><i>Event-Listener</i></b></item>
+        <item>Creating a Database</item>
+        <item>Adding Data to Database</item>
+        <item>Retrieving Data from Database</item>
+        <item>Asynchronous Tasks</item>
+        <item>Verifying the passpoints</item>
+        <item>Supporting different screen resolution</item>
+        <item>Intents and launching activities</item>
+        <item>Nesting ViewGroups</item>
+        <item>Option Menus</item>
+        <item>passing Data to Activities</item>
+        <item>Sub-Activities</item>
+        <item>Taking photos</item>
+        <item>Saving and displaying photos</item>
+        <item>List Views</item>
+        <item>Dynamically populating lists</item>
+        <item>Custom adapters</item>
+        <item>Using Icons in Views</item>
+        <item>Styles and themes</item>
+        <item>Selectors</item>
+        <item>Relative Layouts</item>
+        <item>Browsing the Gallery</item>
+        <item>Retrieving as image from the Gallery </item>
+        <item>The Activity lifecycle and saving data</item>
+        <item>Pre-publication Checks</item>
+        <item>Taking screenshots of your App</item>
+        <item>Signing and exporting your App</item>
+        <item>Publishing your App</item>
+        <item>Using 3rd party APIs</item>
+        <item>Action Bars</item>
+        <item>Responding to Action Bar Menu clicks</item>
+        <item>Downloading Test Data from the Internet</item>
+        <item>internet communication overview</item>
+        <item>A simple server program</item>
+        <item>Sending small amounts of Data to a server</item>
+        <item>URL Escaping</item>
+        <item>Decoding Json</item>
+        <item>Encoding Data as Json</item>
+        <item>Responding to Post Request</item>
+        <item>Posting Json Data to a server</item>
+        <item>Introduction to Fragments</item>
+        <item>Using ListFragments</item>
+        <item>Formatting items in ListFragment</item>
+        <item>Fragment communication</item>
+        <item>Managing Fragments</item>
+
+
+
+    </string-array>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="about_statement">This app aims to provide a clear introduction to <b><i>Android App Development</i></b>.
+        through short descriptions and code snippets. at the end of
+    every tutorial you will find a link to a video discussion <b><i>(in arabic)</i></b>.
+    feel free to leave any feedback and happy coding.</string>
+    <string name="contact_us">Contact us</string>
+    <string name="watch_arabic_video_tutorial">Watch Arabic video tutorial</string>
+    <string name="intro_1">First of all let\'s take a look at the android system architecture.</string>
+    <string name="intro_2">As you can see we are going to build on top of the system using
+    java. we will use the Frameworks, we can include the libraries in our App. we can\'t
+    dig dipper than this while using java. so this will be what out tuts about.</string>
+    <string name="intro_3"><b><i>Prerequisites:</i></b>\n1) OOP(Object oriented programming).\n2)Java / C#.\n3)MVC(Model View Controller).\n4)4GB of RAM</string>
+    <string name="intro_4"><b><i>OOP:</i></b>\nIs a way of thinking rather than a way
+    of coding. organized around objects rather than actions and data rather than logic.
+    is a way to express your model, similar to real life.</string>
+    <string name="intro_5"><b><i>Important concepts in OOP:</i></b>\n
+    1)Abstraction: take only what you need, EX: A person has a name, id, address, birth date,
+    age, height, weight and shoes size. if we are making a bank App then we only need(name,
+        age, address, birth date and id).\n2)Encapsulation: (Data hiding) by using Access modifiers\n
+    public: everyone can reach this data.\nprotected: only me and my children can reach this data.\n
+    private: only me(anyone else can reach it but not directly, using <b><i>Getters</i></b>
+        and <b><i>Setters</i></b>) which is called Access under control.\n3)Inheritance:
+    creating families of related classes(Parent and child\'s) which provides the ability of
+    code-reusing</string>
+    <string name="intro_6">If you don\'t get all of it. don\'t worry we will discuss
+     everything id detail later.</string>
+    <string name="intro_7"><b><i>Class / Interface</i></b>\nclass: Child class can inherit from
+    parent class if it can apply the <b><i>IS-A</i></b> rule. EX: Circle IS-A shape, which
+    means circle can inherit from shape(Inherits everything except private data), in java
+    child class can only extends one parent class.\ninterface: must apply the
+    <b><i>HAS-A</i></b> rule. EX: car HAS-A wheels(interface has methods signatures, no
+        implementation), class can implement multiple interfaces.\n4)Polymorphism:
+    Doing same action but with different technique, the ability of child to has it\'s own form
+    of behavior that is provided by parent. EX: shape interface has a draw method. circle, square
+    and triangle implements shape and it\'s method, but every class draws by it\' own way.</string>
+    <string name="intro_8"><b><i>MVC</i></b>(Model View Controller):\nDivides your
+    Application into three parts:\nModel: is the data and the rules.\nView:
+    provides different ways to present the data.\nController: Manages the user requests(when
+        the user clicks on GUI element, sends a request to the model, retries the response
+        then updates the View)</string>
+
+</resources>
