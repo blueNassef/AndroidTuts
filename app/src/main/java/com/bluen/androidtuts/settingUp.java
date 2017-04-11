@@ -5,27 +5,26 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.text.method.ScrollingMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
 
 /**
- * Created by root on 4/8/17.
+ * Created by root on 4/10/17.
  */
 
-public class introClass extends Fragment {
+public class settingUp extends Fragment {
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        View v= inflater.inflate(R.layout.intro_frag,container,false);
-        Button introVideo= (Button)v.findViewById(R.id.introVideo);
-        introVideo.setOnClickListener(new View.OnClickListener() {
+        View v = inflater.inflate(R.layout.setting_up,container,false);
+        Button settingupVideo= (Button)v.findViewById(R.id.settingupVideo);
+        settingupVideo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i= new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtu.be/g0naZbhPuBA"));
+                Intent i= new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtu.be/K9Zm0VKvWOs"));
                 startActivity(i);
             }
         });

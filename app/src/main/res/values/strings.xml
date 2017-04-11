@@ -3,7 +3,6 @@
     <string-array name="tuts">
         <item>Introduction to the Android system</item>
         <item>Setting up your system</item>
-        <item>Creating an Emulator VS. Genymotion</item>
         <item>Hello World</item>
         <item>The <b><i>EditText</i></b> View</item>
         <item>Buttons and linear Layouts</item>
@@ -110,5 +109,20 @@
     provides different ways to present the data.\nController: Manages the user requests(when
         the user clicks on GUI element, sends a request to the model, retries the response
         then updates the View)</string>
+    <string name="setting_1">There are some tools which must be installed to be able to
+    make over android apps development.\n<b><i>JDK</i></b> (java development kite).\n
+    <b><i>JRE</i></b>(Java runtime environment).\nBoth can be downloaded directly from
+    oracle website.\nFinally the Android SDK and Android studio bundle from android website.</string>
+    <string name="setting_2">If everything goes alright. you should be able to run
+    android studio(it\'s better to run it in administrative/root). next there is
+    two options to display our under development app, virtually by using emulator or
+    physically by using your own android phone. to setup a virtual device click on
+    tools >>Android >> AVD manager, then choose create a virtual device and follow the
+    procedure (<b><i>Note:</i></b> the official emulator requires a lot of RAM which makes it
+        too slow, instead we can go for other emulators, search for <b><i>Blue stacks</i></b> or
+        <b><i>GenyMotion</i></b>.\nIf you are going to use your physical device then
+        first you must go to settings >>About phone and click several times of=n Build number.
+        now go back you should see Developer options above About phone, click on it.
+        check USB debugging.)</string>
 
 </resources>

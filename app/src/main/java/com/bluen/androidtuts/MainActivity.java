@@ -83,9 +83,9 @@ public class MainActivity extends AppCompatActivity {
                         sp.play(soundId,1,1,0,0,1);
                         Toast.makeText(getApplicationContext(),itemValue,
                                 Toast.LENGTH_SHORT).show();
-                        //ft.add(R.id.fragContainer,new firstJunit());
+                        ft.add(R.id.fragContainer,new settingUp());
                         ft.addToBackStack("");
-                        //ft.commit();
+                        ft.commit();
                         break;
                     case 2:
                         sp.play(soundId,1,1,0,0,1);
